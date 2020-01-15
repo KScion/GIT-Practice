@@ -1,4 +1,5 @@
 
+
 p.serif {
   font-family: "Times New Roman", Times, serif;
 }
@@ -42,11 +43,13 @@ div {
 }
 
 #topic {
+	
 	float: left;
 	width: 25%;
 	height: 800px;
 }
 #question {
+	
 	float: right;
 	width: 60%;
 	height: 800px;
@@ -54,6 +57,7 @@ div {
 }
 
 #explain {
+
 	float: bottom;
 	clear: both;
 	width: 93%;
@@ -72,6 +76,26 @@ div {
 header {
 	clear: both;
 }
+
+.col {
+	column-count: 3;
+	column-gap: 40px;
+	column-rule: 1px dotted;
+	text-align: justify;
+}
+
+#newcol {
+	float: right;
+	width: 60%;
+	height: 400px;
+}
+
+#newpos {
+	float: left;
+	width: 25%;
+	height: 400px
+}
+
 
 
 
